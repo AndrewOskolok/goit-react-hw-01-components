@@ -1,0 +1,42 @@
+.item {
+  display: flex;
+  align-items: center;
+  padding: 0 16px;
+  height: 112px;
+  background-color: #fff;
+  box-shadow: 0 2px 3px grey;
+}
+
+.item:not(:last-child) {
+  margin-bottom: 16px;
+}
+
+.status-online {
+  display: block;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: green;
+  margin-right: 16px;
+}
+
+.status-offline {
+  display: block;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: red;
+  margin-right: 16px;
+}
+
+.avatar {
+  width: 96px;
+  height: 96px;
+  border-radius: 10px;
+  margin-right: 16px;
+}
+
+.name {
+  font-size: 24px;
+  font-weight: 700;
+}

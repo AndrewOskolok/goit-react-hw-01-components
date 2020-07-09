@@ -1,0 +1,8 @@
+.item {
+  height: 50px;
+  color: #5c6975;
+}
+
+.item:nth-child(even) {
+  background-color: #ecf2f3;
+}
